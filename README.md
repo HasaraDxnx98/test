@@ -13,4 +13,3 @@ To open on macOS from the project folder:
 ```bash
 open index.html
 ```
-# test
