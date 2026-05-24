@@ -10,7 +10,7 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:var(-
 h1{margin:0 0 18px;font-size:22px}
 .question{font-weight:600;margin-bottom:12px}
 .choices{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
-.choice{padding:10px 12px;border-radius:8px;border:1px solid rgba(20,30,50,0.08);background:#fff;cursor:pointer;text-align:left}
+.choice{padding:10px 12px;border-radius:8px;border:1px solid rgba(20,30,50,0.08);background:#fff;color:var(--text);cursor:pointer;text-align:left}
 .choice:hover{transform:translateY(-1px)}
 .choice.selected{outline:3px solid rgba(43,124,255,0.15);border-color:var(--accent)}
 .controls{display:flex;justify-content:flex-end}
