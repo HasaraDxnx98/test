@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Quiz Game</h1>
+
+    <div id="quiz">
+      <div id="question" class="question"></div>
+      <div id="choices" class="choices"></div>
+      <div class="controls">
+        <button id="nextBtn" disabled>Next</button>
+      </div>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2 id="resultText"></h2>
+      <p id="scoreText"></p>
+      <button id="restartBtn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
